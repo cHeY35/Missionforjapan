@@ -9,7 +9,7 @@ e = []
 def repeat():
 	entry = raw_input("")
 
-	if len(entry) >= 3:
+	if len(entry) >= 2:
 		e = entry.split(' ')
 		le = len(e)
 		repeats(le-1, e, sum)
